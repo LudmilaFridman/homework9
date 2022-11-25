@@ -1,9 +1,9 @@
 ﻿System.Console.Write("enter m=");
-uint m = uint.Parse(Console.ReadLine());
+int m = int.Parse(Console.ReadLine());
 System.Console.Write("enter n=");
-uint n = uint.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine());
 
-static uint AckermanFunction(uint n, uint m)
+int AckermanFunction(int n, int m)
 {
     if (n == 0)
     {
